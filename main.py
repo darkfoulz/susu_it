@@ -2,7 +2,7 @@ import math
 #Функция Алгоритма Расчет
 def Distance(x0, y0, x1, y1):
     distance = math.sqrt((x1 - x0)**2 + (y0 - y1)**2)
-    return print(f"Расстояние между двумя точками ({x0}, {y0}) и ({x1}, {y0}): {distance}")
+    return print(f"Расстояние между двумя точками на плоскости ({x0}, {y0}) и ({x1}, {y0}): {distance}")
 
 
 if __name__ == "__main__":
